@@ -1,0 +1,11 @@
+<h1 class="jumble">{{jumbleWord}}</h1>
+
+<input type="text" class="input-space" name="input" ng-model="inputText" required ng-trim="false" ng-change="checkValid()" ngMaxlength="limitVal"> 
+<script type="text/ng-template" id="success.html">
+    <div class="modal-header">
+        <h3 class="modal-title">You Did It!</h3>
+    </div>
+    <div class="modal-body">
+        <button class="btn btn-primary next-btn" type="button" ng-click="next()">NEXT</button>
+    </div>
+</script>

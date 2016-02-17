@@ -1,0 +1,130 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    padding: 0;
+    background: #FFC700;;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #210002;
+    width: 100%;
+    color: #F3FFE2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Custom page header */
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+
+/* Custom page footer */
+
+.footer {
+    padding-bottom: 19px;
+    border-top: 1px solid #e5e5e5;
+    bottom: 0;
+    position: absolute;
+}
+.footer-container{
+    float: left;
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.modal-content {
+    background-color: #F3FFE2;
+}
+
+.modal-title {
+    text-align: center;
+    color: #DF6F1C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.next-btn {
+    position: relative;
+    left: 40%;
+    background-color: #210002;
+    border-color: #210002;
+    color: #F3FFE2;
+}
+
+.jumble {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F090B;
+    font-size: 8em;
+}
+
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.input-space {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background: #FFC700;
+    border: none;
+    color: #2F090B;
+    opacity: 1;
+    border-bottom: solid 2px #2F090B;
+    transition: border 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8em;
+    width:100%;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
